@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="480" y1="0" x2="480" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#8cc8d1"/><stop offset=".55" stop-color="#e8bd88"/><stop offset="1" stop-color="#f8d38d"/></linearGradient>
+    <linearGradient id="island" x1="480" y1="340" x2="480" y2="645" gradientUnits="userSpaceOnUse"><stop stop-color="#67915a"/><stop offset="1" stop-color="#343f36"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h960v700H0z"/><circle cx="769" cy="177" r="64" fill="#ffd27f" opacity=".9"/>
+  <path d="m0 390 160-150 110 130 153-178 145 176 147-152 245 167v117H0z" fill="#94a99a" opacity=".8"/><path d="m0 440 217-119 166 125 193-157 190 149 115-98 79 78v117H0z" fill="#77927c"/>
+  <path d="M113 413h733l-61 135-136 72H285l-110-65z" fill="url(#island)"/><path d="m173 546-45 50 133 31-4-41m481-39 41 56-102 21-10-41" fill="#27362f"/>
+  <path d="m269 447 160-14 68 42-162 16zm171 31 157-4 72 40-171 8z" fill="#c9ac76"/>
+  <g fill="#496a48"><rect x="182" y="358" width="34" height="64"/><rect x="158" y="336" width="82" height="38"/><rect x="692" y="354" width="37" height="70"/><rect x="667" y="328" width="87" height="43"/><rect x="550" y="355" width="31" height="65"/><rect x="529" y="332" width="74" height="38"/></g>
+  <g fill="#6b8854"><rect x="168" y="316" width="61" height="38"/><rect x="680" y="309" width="63" height="39"/><rect x="540" y="312" width="54" height="34"/></g>
+  <path d="M389 396h119v84H389z" fill="#e8d0a2"/><path d="m377 397 71-63 74 63z" fill="#9b5545"/><rect x="430" y="429" width="34" height="51" fill="#725340"/><rect x="401" y="412" width="23" height="19" fill="#7dc4ca"/><rect x="473" y="412" width="22" height="19" fill="#7dc4ca"/>
+  <g transform="translate(321 420)"><rect x="8" y="0" width="34" height="37" rx="4" fill="#bf6949"/><rect x="12" y="-23" width="26" height="25" rx="5" fill="#ead2b2"/><path d="M12 37v28m27-28v28M0 48h52" stroke="#314537" stroke-width="10" stroke-linecap="round"/></g>
+  <g transform="translate(579 421) scale(.82)"><rect x="8" y="0" width="34" height="37" rx="4" fill="#4e91a1"/><rect x="12" y="-23" width="26" height="25" rx="5" fill="#ead2b2"/><path d="M12 37v28m27-28v28M0 48h52" stroke="#314537" stroke-width="10" stroke-linecap="round"/></g>
+</svg>
+
