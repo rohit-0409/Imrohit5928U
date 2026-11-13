@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0b0d" />
+    <meta name="description" content="RuffiC — independent Roblox developer." />
+    <title>RuffiC — Independent Roblox Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./portfolio-data.js"></script>
+    <script defer src="./site.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="RuffiC home">Ruffi<span>C</span><i aria-hidden="true">.</i></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-label">Menu</span><span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#top">Home</a>
+        <a href="#work">Games</a>
+        <a href="#videos">Videos</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="hero-kicker"><span class="status-dot"></span> Independent Roblox developer</div>
+          <h1 id="hero-title">I build systems<br />that make games<br /><em>come alive.</em></h1>
+          <p class="hero-summary">Gameplay systems <span>·</span> Multiplayer <span>·</span> Luau</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-footnote"><span class="experience-mark"><span id="experience-years">04</span><i>+</i></span><span class="experience-label">Years of<br />experience</span><span class="footnote-rule"></span><span class="footnote-scroll">Scroll to explore <span aria-hidden="true">↓</span></span></div>
+        </div>
+
+        <div class="hero-art" aria-label="Choose an image for the interactive intro">
+          <input class="hero-image-input" id="hero-image-input" type="file" accept="image/*" />
+          <button class="hero-image-object" id="hero-image-button" type="button" aria-label="Choose intro image">
+            <img id="hero-image" alt="Selected intro artwork" hidden />
+            <span class="hero-image-prompt"><span class="hero-image-plus" aria-hidden="true">＋</span><span>Choose an image</span></span>
+          </button>
+          <span class="hero-image-shadow" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="games-section" id="work" aria-labelledby="work-title">
+        <div class="section-shell games-heading">
+          <div class="section-topline"><span>Selected games</span><span>Roblox <b>✳</b></span></div>
+          <h2 id="work-title">Made <em>to play.</em></h2>
+        </div>
+        <div class="games-marquee" aria-label="Games, with visit counts">
+          <div class="games-track" id="games-track"></div>
+        </div>
+      </section>
+
+      <section class="videos-section" id="videos" aria-labelledby="videos-title">
+        <div class="section-shell">
+          <div class="section-topline"><span>Video</span><span>YouTube <b>✳</b></span></div>
+          <div class="videos-heading-row"><h2 id="videos-title">In <em>motion.</em></h2></div>
+          <div class="videos-grid" id="videos-grid"></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner section-shell">
+          <div class="section-topline"><span>Contact</span><span>✳</span></div>
+          <h2 id="contact-title">Let's build<br /><em>something.</em></h2>
+          <div class="contact-bottom"><span></span><a class="button button-dark" href="mailto:hello@example.com" id="contact-email">Let's talk <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><a class="brand" href="#top">Ruffi<span>C</span><i>.</i></a><span>Roblox developer · <span id="footer-year"></span></span><a href="#top">Top ↑</a></footer>
+  </body>
+</html>
+
